@@ -8,7 +8,7 @@ def index():
     the_time = datetime.now().strftime("%A, %d %b %Y %l:%M %p")
 
     return """
-    <h1>Hello Heroku!</h1>
+    <h1>Hello Heroku! Jason Xu !</h1>
     <p>The time is currently: {time}.</p>
     """.format(time=the_time)
 
